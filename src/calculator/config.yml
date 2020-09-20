@@ -1,0 +1,4 @@
++: calculator.service.factory.AddFactory
+-: calculator.service.factory.SubtractFactory
+*: calculator.service.factory.MulFactory
+/: calculator.service.factory.DivFactory

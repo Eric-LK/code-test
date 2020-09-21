@@ -1,4 +1,6 @@
-public class DeadLockSample {
+package thread;
+
+public class DeadLock {
     private final static  Object lock1 = new Object();
     private final static String lock2 = new String();
 

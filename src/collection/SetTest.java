@@ -2,6 +2,7 @@ package collection;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Random;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -13,12 +14,13 @@ import java.util.TreeSet;
  **/
 public class SetTest {
     public static void main(String[] args) {
-        HashSet<String> hashSet = new HashSet<String>();
+        HashSet<String> hashSet = new HashSet<>(0);
+        System.out.println(hashSet.size());
         hashSet.add("123");
         hashSet.add("123");
         hashSet.add("111");
 
-        System.out.println(hashSet);
+        System.out.println(hashSet.size());
 
         ArrayList<String> arrayList = new ArrayList<String>();
 
@@ -26,7 +28,9 @@ public class SetTest {
         arrayList.add("123");
         System.out.println(arrayList);
 
-        TreeSet<String> treeSet = new TreeSet<>();
-        treeSet.add("123");
+        System.out.println("-------------------");
+
+
+
     }
 }

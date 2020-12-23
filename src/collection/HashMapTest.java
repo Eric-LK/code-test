@@ -35,7 +35,10 @@ public class HashMapTest {
         hashMap.put("name","eric");
 
 
-        hashMap.put("","123");
+        hashMap.put("id","456");
+
+        System.out.println(hashMap);
+
         hashMap.put(null,"12222");
         hashMap.put(null,"123");
 

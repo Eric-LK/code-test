@@ -45,7 +45,7 @@ public class stream {
         List<Integer> listFilter = list.stream().filter(x -> x > 25).collect(Collectors.toList());
 
         // 2.对list中的每个数据操作一下，然后转化为list
-        List listMap = list.stream().map(x -> x + x * 5).collect(Collectors.toList());
+        List<Integer> listMap = list.stream().map(x -> x + x * 5).collect(Collectors.toList());
 
         // 3.保留前3个元素
         List<Integer> listLimit = list.stream().limit(3).collect(Collectors.toList());

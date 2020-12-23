@@ -10,5 +10,6 @@ public class TimeStampTest {
         System.out.println(oneYearOld);
         System.out.println((int) ((oneYearOld - (System.currentTimeMillis() + 86400000L ) ) / (86400000L * 365)));
         System.out.println((int) ((oneYearOld - System.currentTimeMillis() ) / (86400000L * 365)));
+        System.out.println(System.currentTimeMillis());
     }
 }

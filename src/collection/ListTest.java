@@ -138,6 +138,11 @@ public class ListTest {
         HashSet hashSet = new HashSet();
         hashSet.add(123);
         // hashSet.
+
+        String[] a = {"123","222"};
+        List<String> listON = new ArrayList<>();
+
+        // Collectoions.addAll()
     }
 
 }
